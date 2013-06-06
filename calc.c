@@ -154,8 +154,11 @@ static ssize_t read_routine(PFILE filp, char *buffer, size_t length, loff_t * of
         return i;
 }
 
+
+
 static ssize_t write_routine(PFILE filp, const char *buff, size_t len, loff_t * off)
 {
+        static int fin = 0;//
         static int fin = 0;
         char name[MESSAGE_LEN];
         int buf_size = 0;
