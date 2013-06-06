@@ -17,7 +17,7 @@
 #define FILENAME_RESULT "calc_result"
 
 #define STR_OUT "%s"
-
+//c
 /* Char devices maximum file size. */
 #define MAX_FILENAME 16
 #define FILES_COUNT 4
